@@ -1,7 +1,7 @@
 import mysql.connector
 
 conexion1 = mysql.connector.connect(
-    host="localhost", user="root", passwd="", database="bdpy"
+    host="localhost", user="root", passwd="", database="pizzeria"
 )
 cursor1 = conexion1.cursor()
 cursor1.execute("show tables")
